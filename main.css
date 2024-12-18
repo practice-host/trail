@@ -1,0 +1,70 @@
+@font-face {
+    font-family: main;
+    src: url(library/font/Ubuntu-Title.ttf);
+}
+
+body {
+    display: flex;
+    background: linear-gradient(black 0%, wheat 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0; /* Remove default body margin */
+    height: 100vh; /* Ensure it takes the full viewport height */
+    height: 150vh;
+}
+::-webkit-scrollbar{
+    width: 8px;
+
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+}
+::-webkit-scrollbar-thumb{
+    border-radius: 20px;
+    background: wheat;
+}
+.block{
+    display: flex;
+    position: absolute;
+    align-items: center;
+    top: 5vh;
+    height: 5vh;
+    width: 100%;
+    background-color: transparent;
+    justify-content: space-around;
+    align-items: center;
+}
+.main{
+    align-items: center;
+    width: 30vh;
+    height: 100%;
+    border: none;
+    background: transparent;
+
+}
+.main:hover{
+    cursor: pointer;
+}
+p1{
+    font-family: main;
+    font-size: xx-large;
+    color: wheat;
+}
+.head{
+    color: wheat;
+}
+.space{
+    width: 55vh;
+}
+.main-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 70vh;
+
+}
+.bar{
+    font-size: large;
+    font-family: main;
+    color: wheat;
+}
